@@ -219,15 +219,6 @@ The Power BI model also includes derived fields such as `Operational Risk Score`
 
 See [`docs/data_dictionary.md`](docs/data_dictionary.md) for field definitions, logical types, business interpretations, and notes about derived fields.
 
-## Recommended visuals
-
-1. **Dashboard screenshot** — `assets/executive-overview.png`, captured from the actual report in Power BI.
-2. **Pipeline architecture** — `assets/pipeline-architecture.png`, included in this repository.
-3. **ETL run evidence** — a cropped terminal screenshot showing row count, duplicate-ID count, null checks, and successful output paths. Remove personal paths and credentials.
-4. **Optional detail screenshot** — a close-up of the decomposition tree and retention table if the full-page screenshot makes them difficult to read.
-
-Use real screenshots and verified results. Avoid visuals or wording that imply predictive accuracy or financial impact not established by the analysis.
-
 ## Limitations and future improvements
 
 - Add automated tests for schema, nulls, duplicate IDs, and output generation.
@@ -236,10 +227,6 @@ Use real screenshots and verified results. Avoid visuals or wording that imply p
 - Validate heuristic risk thresholds using documented business assumptions and historical evidence.
 - If dated data becomes available, analyze churn over time or develop and evaluate a predictive model with appropriate validation.
 - Document the Power BI source connection so the report can be refreshed on another machine.
-
-## License
-
-No license has been specified yet. Add a `LICENSE` file before presenting the repository as open source. Review the original Kaggle dataset's license and terms separately; this repository's license does not automatically change the dataset's terms.
 
 ## Acknowledgments
 
